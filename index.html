@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html class="page" lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>OneGrade</title>
+    <link rel="stylesheet" href="css/styles.min.css">
+    <link rel="stylesheet" href="css/min.normalize.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css" integrity="sha384-DhY6onE6f3zzKbjUPRc2hOzGAdEf4/Dz+WJwBvEYL/lkkIsI3ihufq9hk9K4lVoK" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper.js -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/js/bootstrap.bundle.min.js" integrity="sha384-BOsAfwzjNJHrJ8cZidOg56tcQWfp6y72vEJ8xQ9w6Quywb24iOsW913URv1IS4GD" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <script src="js/wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
+  </head>
+  <body class="page__body">
+    <header class="page-header wow animate__animated animate__fadeInDown" data-wow-duration="0.5s" data-wow-delay="0.5s">
+      <div class="container col-12 header">
+        <nav class="navbar-expand-lg">
+          <a href="index.html" class="page-header__logo">
+          <img src="img/logo.svg" alt="logo" width="200" height="45">
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse main-nav navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav main-nav__list site-list">
+              <li class="site-list__item">
+                <a class="site-list__link" href="#about-us">О нас</a>
+              </li>
+              <li class="site-list__item">
+                <a class="site-list__link" href="#services">Услуги</a>
+              </li>
+              <li class="site-list__item">
+                <a class="site-list__link" href="#contacts">Контакты</a>
+              </li>
+            </ul>
+            <ul class="socials">
+              <li class="socials__item">
+                <a href="#" class="socials__link">
+                <img class="socials__img" src="img/facebook.svg" alt="facebook">
+                </a>
+              </li>
+              <li class="socials__item">
+                <a href="#" class="socials__link">
+                <img class="socials__img" src="img/twitter.svg" alt="facebook">
+                </a>
+              </li>
+              <li class="socials__item">
+                <a href="#" class="socials__link">
+                <img class="socials__img" src="img/telegram.svg" alt="facebook">
+                </a>
+              </li>
+              <li class="socials__item">
+                <a href="#" class="socials__link">
+                <img class="socials__img" src="img/in.svg" alt="facebook">
+                </a>
+              </li>
+            </ul>
+            <ul class="user-nav">
+              <li class="user-nav__item">
+                <a class="user-nav__link--sign-in" href="#" data-toggle="modal" data-target="#exampleModal">Вход</a>
+              </li>
+              <li class="user-nav__item">
+                <a class="user-nav__link--sign-up" href="#" data-toggle="modal" data-target="#exampleModal1">Регистрация</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <main class="page-main content">
+      <section class="container main-screen wow animate__animated animate__zoomIn">
+        <h1 class="main-screen__title">OneGrade</h1>
+        <p class="main-screen__subtitle">Твой грейд - твои возможности<br>Как найти своих клиентов? - По истории покупок</p>
+        <a class="main-button wow animate__animated animate__pulse" href="#">Узнай свой грейд</a>
+      </section>
+      <section class="about-us" id="about-us">
+        <div class="container about-us--wrapper">
+          <h2 class="title">О нашей компании</h2>
+          <p class="about-us__subtitle">Мы помогаем новым компаниям найти своих клиентов, а компаниям с историей расширить клиентскую базу.</p>
+          <p class="about-us__subtitle">Наш сервис позволяет покупателям публиковать историю своих покупок, чтобы компании могли найти целевых клиентов анализирую их расходы и сделать им лучшие предложения.</p>
+          <p class="about-us__subtitle">Мы хотим сделать покупки выгодными и для компаний и для их клиентов!</p>
+        </div>
+      </section>
+      <section class="services container" id="services">
+        <h2 class="title">Наши услуги</h2>
+        <ul class="services__list">
+          <li class="services__item services__item--loyalty">
+            <h3 class="services__item-header">Система лояльности</h3>
+            <p class="services__item-subheader">Наше мобильное приложение позволяет вести учет покупок клиентов, находить и привлекать новых клиентов по истории их покупок в других отраслях.</p>
+          </li>
+          <li class="services__item services__item--connection">
+            <h3 class="services__item-header">Новый канал связи</h3>
+            <p class="services__item-subheader">Общайся с лучшими клиентами напрямую! Делай персональные предложения - привлекай доходных клиентов и увеличивай обороты.</p>
+          </li>
+          <li class="services__item services__item--analize">
+            <h3 class="services__item-header">Анализ истории покупок клиентов</h3>
+            <p class="services__item-subheader">Наше мобильное приложение позволяет вести учет покупок клиентов, находить и привлекать новых клиентов по истории их покупок в других отраслях.</p>
+          </li>
+        </ul>
+      </section>
+      <section class="application">
+        <div class="container application__wrapper">
+          <h2 class="title">Найди своих клиентов</h2>
+          <p class="application__subtitle">Установите мобильное приложение, получите готовую систему лояльности и начните привлекать новых клиентов.</p>
+          <a class="main-button application__btn" href="#">Установить преложение</a>
+        </div>
+      </section>
+      <section class="advantages container">
+        <h2 class="title">Преимущества компании</h2>
+        <p class="advantages__subtitle"><span>OneGrade</span> - это система лояльности для активных покупателей, где клиенты получают лучшие условия, а компании доходных клиентов</p>
+        <ul class="advantages__list">
+          <li class="advantages__item advantages__item--cards">Полная замена традиционных дисконтных карт</li>
+          <li class="advantages__item advantages__item--coins">Готовая система лояльности для клиентов и система мотивации для кассиров</li>
+          <li class="advantages__item advantages__item--people">Возможность привлечения новых клиентов из других отраслей на основе анализа истории их покупок</li>
+        </ul>
+      </section>
+      <section class="request wow animate__animated animate__jackInTheBox" id="contacts" data-wow-delay="0.7s">
+        <div class="container request__wrapper">
+          <form class="request__form" method="post">
+            <input class="request__form-input" type="text" placeholder="Имя"><br>
+            <input class="request__form-input" type="email" placeholder="E-mail" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2, 4}$"><br>
+            <input class="request__form-input" type="text" placeholder="Номер телефона"><br>
+            <button class="request__form-btn main-button" type="submit">Отправить</button>
+          </form>
+          <div>
+            <h2 class="title request__title">Оставьте заявку<br> и мы расскажем подробнее</h2>
+            <p class="request__subtitle">Укажите свое имя и контактные данные.<br> Наши специалисты свяжутся с Вами в ближайшее время.</p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="page-footer wow animate__animated animate__zoomIn">
+      <div class="container footer">
+        <p class="page-footer__text">Номер для звонков<br><span>+7 912 604 48 94</span></p>
+        <p class="page-footer__text">Номер для звонков<br><span>onegrade@gmail.com</span></p>
+        <div>
+          <p class="page-footer__text">Мы в соц. сетях</p>
+          <ul class="socials socials--footer">
+            <li class="socials__item">
+              <a class="socials__link">
+              <img class="socials__img" src="img/facebook.svg" alt="facebook">
+              </a>
+            </li>
+            <li class="socials__item">
+              <a class="socials__link">
+              <img class="socials__img" src="img/twitter.svg" alt="facebook">
+              </a>
+            </li>
+            <li class="socials__item">
+              <a class="socials__link">
+              <img class="socials__img" src="img/telegram.svg" alt="facebook">
+              </a>
+            </li>
+            <li class="socials__item">
+              <a class="socials__link">
+              <img class="socials__img" src="img/in.svg" alt="facebook">
+              </a>
+            </li>
+          </ul>
+        </div>
+        <p class="page-footer__copyright">Copyright © OneGrade 2020</p>
+      </div>
+    </footer>
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <form class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Вход</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            </button>
+          </div>
+          <div class="modal-body">
+            <input class="modal-input" type="email" placeholder="Email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2, 4}$"><br>
+            <input class="modal-input" type="password" placeholder="Пароль" required>
+          </div>
+          <div class="modal-footer">
+            <div class="modal-footer__wrapper">
+              <input class="modal-input modal-input-checkbox" type="checkbox" id="remember-me">
+              <label class="modal-label" for="remember-me">Запомнить меня</label>
+              <button type="submit" class="modal-btn">Войти</button>
+            </div>
+            <div>
+              <a class="modal-link" href="#">Забыли пароль?</a>
+              <a class="modal-link" href="#">Не зарегистрированы?</a>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="modal fade" id="exampleModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel1" aria-hidden="true">
+      <div class="modal-dialog">
+        <form class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel1">Регистрация</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            </button>
+          </div>
+          <div class="modal-body">
+            <input class="modal-input" type="text" placeholder="ФИО" required><br>
+            <input class="modal-input" type="text" placeholder="Город" required><br>
+            <input class="modal-input" type="text" placeholder="Адрес" required><br>
+            <input class="modal-input" type="email" placeholder="Email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2, 4}$"><br>
+            <input class="modal-input" type="text" placeholder="Телефон" required><br>
+            <input class="modal-input" type="password" placeholder="Пароль" required><br>
+            <input class="modal-input" type="password" placeholder="Подтверждение пароля" required>
+          </div>
+          <div class="modal-footer">
+            <div class="modal-footer__wrapper">
+              <input class="modal-input modal-input-checkbox" type="checkbox" id="agree">
+              <label class="modal-label" for="agree">Я согласен с условиями</label>
+              <button type="submit" class="modal-btn">Регистрация</button>
+            </div>
+            <div>
+              <a class="modal-link" href="#">Зарегистрированы?</a>
+              <a class="modal-link" href="https://lk.onegrade.ru/licence/">Условия соглашения</a>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
