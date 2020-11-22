@@ -391,7 +391,8 @@ a {
 
 .application__wrapper {
   padding: 70px 0;
-  display: flex; }
+  display: flex;
+  align-items: center; }
 
 .application__subtitle {
   font-size: 15px;
