@@ -205,57 +205,28 @@ a {
     outline: none;
     opacity: 0.8; }
 
-@media screen and (min-width: 1500px) and (max-width: 2500px) {
-  .main-screen {
-    position: relative;
-    background-position: 70% center; }
-    .main-screen::before {
-      content: "";
-      position: absolute;
-      bottom: 0;
-      left: 70%;
-      width: calc((1000vw - 337px) / 2);
-      height: 533px;
-      z-index: -1;
-      background-color: #ffb602; } }
-
-@media screen and (min-width: 2500px) and (max-width: 4000px) {
-  .main-screen {
-    position: relative;
-    background-position: 60% center; }
-    .main-screen::before {
-      content: "";
-      position: absolute;
-      bottom: 0;
-      left: 60%;
-      width: calc((1000vw - 337px) / 2);
-      height: 533px;
-      z-index: -1;
-      background-color: #ffb602; } }
-
 @media screen and (max-width: 1199px) {
   .main-screen__title,
   .main-button,
   .main-screen__subtitle {
-    margin-left: 35px; } }
+    margin-left: 0; } }
 
 @media screen and (max-width: 991px) {
   .main-screen {
-    background-image: url("../img/main-bg-tablet.webp");
+    background-image: url("../img/main-bg.webp");
     background-size: 100%;
-    background-position: bottom center;
-    padding-bottom: 600px;
+    background-position: center 90%;
+    padding-bottom: 550px;
     padding-top: 70px; }
   .main-screen__title,
   .main-button,
   .main-screen__subtitle {
     margin-left: 0; } }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .main-screen {
-    padding-bottom: 500px;
-    padding-top: 50px;
-    background-image: url("../img/main-bg-tablet.webp"); }
+    padding-bottom: 450px;
+    padding-top: 50px; }
   .main-screen__title,
   .main-button,
   .main-screen__subtitle {
@@ -267,11 +238,8 @@ a {
 
 @media screen and (max-width: 540px) {
   .main-screen {
-    padding-bottom: 350px;
-    padding-top: 50px;
-    background-image: url("../img/main-bg-tablet.webp"); }
-    .main-screen::after {
-      display: none; }
+    padding-bottom: 400px;
+    padding-top: 50px; }
   .main-screen__title,
   .main-button,
   .main-screen__subtitle {
@@ -280,11 +248,15 @@ a {
 @media screen and (max-width: 500px) {
   .main-screen {
     padding-top: 50px;
-    padding-bottom: 300px;
+    padding-bottom: 350px;
     background-size: 100%;
     background-position: center 90%; }
   .main-screen__title {
     font-size: 48px; } }
+
+@media screen and (max-width: 500px) {
+  .main-screen {
+    padding-bottom: 280px; } }
 
 .about-us {
   background-color: #f6f4f4; }
@@ -463,7 +435,7 @@ a {
   width: 250px;
   margin-left: 0; }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 991px) {
   .application__wrapper {
     background-position: center 90%;
     background-size: 100%;
@@ -716,7 +688,7 @@ a {
   align-items: center; }
 
 .modal-link {
-  padding-top: 20px;
+  text-align: center;
   margin-right: 10px;
   font-size: 14px;
   color: #3b3b3b;
