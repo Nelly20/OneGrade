@@ -75,16 +75,32 @@
     </header>
     <main class="page-main content">
       <section class="main-screen container wow animate__animated animate__zoomIn">
-          <h1 class="main-screen__title">OneGrade</h1>
-          <p class="main-screen__subtitle">Твой грейд - твои возможности<br>Как найти своих клиентов? - По истории покупок</p>
-          <a class="main-button wow animate__animated animate__pulse" href="#">Узнай свой грейд</a>
+        <div class="row main-screen--wrapper">
+          <div class="col-xl-6 col-lg-6 col-12">
+            <h1 class="main-screen__title">OneGrade</h1>
+            <p class="main-screen__subtitle">Твой грейд - твои возможности<br>Как найти своих клиентов? - По истории покупок</p>
+            <a class="main-button wow animate__animated animate__pulse" href="#">Узнай свой грейд</a>
+          </div>
+          <picture class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+            <source type="image/webp" srcset="img/main-bg.webp">
+            <img src="img/main-bg.jpg" alt="main-img">
+          </picture>
+        </div>
       </section>
       <section class="about-us" id="about-us">
-        <div class="container about-us--wrapper">
-          <h2 class="title">О нашей компании</h2>
-          <p class="about-us__subtitle">Мы помогаем новым компаниям найти своих клиентов, а компаниям с историей расширить клиентскую базу.</p>
-          <p class="about-us__subtitle">Наш сервис позволяет покупателям публиковать историю своих покупок, чтобы компании могли найти целевых клиентов анализирую их расходы и сделать им лучшие предложения.</p>
-          <p class="about-us__subtitle">Мы хотим сделать покупки выгодными и для компаний и для их клиентов!</p>
+        <div class="container">
+          <div class="row about-us--wrapper">
+            <picture class="col-xl-5 col-lg-5 col-md-12 col-sm-12 about-us--wrapper-img">
+              <source type="image/webp" srcset="img/about.webp">
+              <img src="img/about.jpg" alt="about-us">
+            </picture>
+            <div class="col-xl-6 col-lg-6 offset-xl-1 offset-lg-1">
+              <h2 class="title">О нашей компании</h2>
+              <p class="about-us__subtitle">Мы помогаем новым компаниям найти своих клиентов, а компаниям с историей расширить клиентскую базу.</p>
+              <p class="about-us__subtitle">Наш сервис позволяет покупателям публиковать историю своих покупок, чтобы компании могли найти целевых клиентов анализирую их расходы и сделать им лучшие предложения.</p>
+              <p class="about-us__subtitle">Мы хотим сделать покупки выгодными и для компаний и для их клиентов!</p>
+            </div>
+          </div>
         </div>
       </section>
       <section class="services container" id="services">
@@ -105,10 +121,18 @@
         </ul>
       </section>
       <section class="application">
-        <div class="container application__wrapper">
-          <h2 class="title">Найди своих клиентов</h2>
-          <p class="application__subtitle">Установите мобильное приложение, получите готовую систему лояльности и начните привлекать новых клиентов.</p>
-          <a class="main-button application__btn" href="#">Установить преложение</a>
+        <div class="container">
+          <div class="row application__wrapper">
+            <picture class="col-xl-5 col-lg-5 col-md-12 col-sm-12 application__wrapper-img">
+              <source type="image/webp" srcset="img/clients.webp">
+              <img src="img/clients.jpg" alt="clients">
+            </picture>
+            <div class="col-xl-6 col-lg-6 offset-xl-1 offset-lg-1 col-12">
+              <h2 class="title">Найди своих клиентов</h2>
+              <p class="application__subtitle">Установите мобильное приложение, получите готовую систему лояльности и начните привлекать новых клиентов.</p>
+              <a class="main-button application__btn" href="#">Установить преложение</a>
+            </div>
+          </div>
         </div>
       </section>
       <section class="advantages container">
@@ -121,24 +145,26 @@
         </ul>
       </section>
       <section class="request" id="contacts">
-        <div class="container request__wrapper">
-          <form class="request__form" method="post">
-            <input class="request__form-input" type="text" placeholder="Имя"><br>
-            <input class="request__form-input" type="email" placeholder="E-mail" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2, 4}$"><br>
-            <input class="request__form-input" type="text" placeholder="Номер телефона"><br>
-            <button class="request__form-btn main-button" type="submit">Отправить</button>
-          </form>
-          <div>
-            <h2 class="title request__title">Оставьте заявку<br> и мы расскажем подробнее</h2>
-            <p class="request__subtitle">Укажите свое имя и контактные данные.<br> Наши специалисты свяжутся с Вами в ближайшее время.</p>
+        <div class="container">
+          <div class="row request__wrapper">
+            <form class="request__form col-xl-5 col-lg-5 col-12" method="post">
+              <input class="request__form-input" type="text" placeholder="Имя"><br>
+              <input class="request__form-input" type="email" placeholder="E-mail" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2, 4}$"><br>
+              <input class="request__form-input" type="text" placeholder="Номер телефона"><br>
+              <button class="request__form-btn main-button" type="submit">Отправить</button>
+            </form>
+            <div class="col-xl-6 col-lg-6 col-12 offset-xl-1 offset-lg-1">
+              <h2 class="title request__title">Оставьте заявку<br> и мы расскажем подробнее</h2>
+              <p class="request__subtitle">Укажите свое имя и контактные данные.<br> Наши специалисты свяжутся с Вами в ближайшее время.</p>
+            </div>
           </div>
         </div>
       </section>
     </main>
     <footer class="page-footer">
       <div class="container footer">
-        <p class="page-footer__text">Номер для звонков<br><span>+7 912 604 48 94</span></p>
-        <p class="page-footer__text">Пишите нам<br><span>onegrade@gmail.com</span></p>
+        <p class="page-footer__text">Номер для звонков<br><a href="tel:+79126044894">+7 912 604 48 94</a></p>
+        <p class="page-footer__text">Пишите нам<br><a href="mailto:onegrade@gmail.com">onegrade@gmail.com</a></p>
         <div>
           <p class="page-footer__text">Мы в соц. сетях</p>
           <ul class="socials socials--footer">
