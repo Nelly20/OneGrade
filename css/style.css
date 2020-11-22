@@ -495,7 +495,7 @@ a {
   padding: 0;
   list-style: none;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   margin-top: 50px; }
 
 .advantages__item {
