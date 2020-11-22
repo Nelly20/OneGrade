@@ -164,14 +164,13 @@ a {
 
 .main-screen {
   position: relative;
-  padding: 140px 0 90px;
-  min-height: 533px;
+  padding: 90px 0 90px;
   background-image: url("../img/main-bg.webp");
   background-repeat: no-repeat;
-  background-position: right center; }
+  background-position: 90% center; }
 
 .main-screen__title {
-  margin-left: 100px;
+  margin-left: 5%;
   font-weight: 600;
   font-size: 64px; }
 
@@ -180,7 +179,7 @@ a {
 
 .main-screen__subtitle {
   margin-top: 30px;
-  margin-left: 100px;
+  margin-left: 5%;
   font-size: 16px;
   line-height: 26px;
   color: #3b3b3b; }
@@ -189,7 +188,7 @@ a {
   display: block;
   width: 200px;
   margin-top: 50px;
-  margin-left: 100px;
+  margin-left: 5%;
   padding: 15px 40px;
   font-size: 14px;
   text-align: center;
@@ -209,7 +208,9 @@ a {
   .main-screen__title,
   .main-button,
   .main-screen__subtitle {
-    margin-left: 0; } }
+    margin-left: 0; }
+  .main-screen {
+    background-position: center right; } }
 
 @media screen and (max-width: 991px) {
   .main-screen {
@@ -262,12 +263,12 @@ a {
   background-color: #f6f4f4; }
 
 .about-us--wrapper {
-  padding: 100px 0;
+  padding: 70px 0;
   padding-left: 550px;
   background-image: url("../img/about.webp");
   background-size: 445px auto;
   background-repeat: no-repeat;
-  background-position: left center; }
+  background-position: 10px center; }
 
 .title {
   margin-bottom: 20px;
@@ -321,7 +322,7 @@ a {
     background-size: 100%; } }
 
 .services {
-  margin-top: 100px; }
+  margin-top: 70px; }
   .services h2 {
     margin-left: 0;
     text-align: center; }
@@ -354,6 +355,7 @@ a {
   background-image: url("../img/arrows.svg"); }
 
 .services__item--analize {
+  width: 100%;
   background-position: right center;
   background-image: url("../img/man.webp"); }
 
@@ -413,20 +415,20 @@ a {
     padding-bottom: 220px; } }
 
 .application {
-  margin-top: 100px;
+  margin-top: 70px;
   background-color: #f6f4f4; }
   .application h2 {
     margin-left: 0; }
 
 .application__wrapper {
-  padding: 100px;
+  padding: 70px 0;
   background-image: url("../img/clients.webp");
   background-size: 445px auto;
   background-repeat: no-repeat;
-  background-position: 90% center; }
+  background-position: right center; }
 
 .application__subtitle {
-  width: 50%;
+  width: 60%;
   font-size: 15px;
   line-height: 28px;
   color: #3b3b3b; }
@@ -472,7 +474,7 @@ a {
     padding-bottom: 300px; } }
 
 .advantages {
-  margin-top: 100px; }
+  margin-top: 70px; }
   .advantages h2 {
     margin-left: 0;
     text-align: center; }
@@ -535,19 +537,19 @@ a {
     width: 95%; } }
 
 .request {
-  margin-top: 100px;
-  padding: 100px 0;
+  margin-top: 70px;
+  padding: 70px 0;
   background-color: #f6f4f4; }
   .request h2 {
     margin-left: 0; }
 
 .request__wrapper {
   display: flex;
-  justify-content: space-around; }
+  justify-content: center; }
 
 .request__form {
-  width: 350px;
-  margin-left: 100px; }
+  width: 380px;
+  margin-right: 100px; }
 
 .request__form-input {
   width: 100%;
